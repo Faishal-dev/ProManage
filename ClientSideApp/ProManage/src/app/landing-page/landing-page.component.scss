@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-container {
+    text-align: center;
+    color: #333;
+  }
+  
+  nav {
+    background: #0044cc;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin-left: 1.5rem;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  .hero {
+    // background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+    background-color: #06ee9d;
+    color: #fff;
+    padding: 6rem 2rem;
+  
+    .hero-content {
+      max-width: 600px;
+      margin: 0 auto;
+  
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+      }
+  
+      .cta-button {
+        background: #ff9900;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .features {
+    padding: 4rem 2rem 8rem;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .features-list {
+      display: flex;
+      justify-content: space-around;
+  
+      .feature-item {
+        max-width: 250px;
+  
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+  
+  footer {
+    background: #0044cc;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+  }
+  
