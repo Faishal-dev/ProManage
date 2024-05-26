@@ -44,3 +44,5 @@ ServerSideApp/ProManage/obj/Debug/net8.0/staticwebassets.build.json
 ServerSideApp/ProManage/obj/Debug/net8.0/staticwebassets/msbuild.build.ProManage.props
 ServerSideApp/ProManage/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ProManage.props
 ServerSideApp/ProManage/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ProManage.props
+ServerSideApp/ProManage/obj/Debug/net8.0/ProManage.sourcelink.json
+ServerSideApp/ProManage/obj/Debug/net8.0/ProManage.csproj.BuildWithSkipAnalyzers

@@ -42,8 +42,8 @@ body, html {
   }
   
   .hero {
-    // background: url('assets/hero-bg.jpg') no-repeat center center/cover;
-    background-color: #06ee9d;
+    background: url('../../assets/1.jpg') no-repeat center center/cover;
+    // background-color: #06ee9d;
     color: #fff;
     padding: 6rem 2rem;
   
@@ -74,8 +74,8 @@ body, html {
   }
   
   .features {
-    padding: 4rem 2rem 8rem;
-  
+    padding: 4rem 2rem;
+    
     h2 {
       font-size: 2rem;
       margin-bottom: 2rem;
@@ -83,18 +83,40 @@ body, html {
   
     .features-list {
       display: flex;
-      justify-content: space-around;
+      overflow-x: auto;
+      gap: 2rem;
   
       .feature-item {
-        max-width: 250px;
+        display: flex;
+        align-items: center;
+        flex: 1 0 auto;
+        padding: 1.5rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
   
-        h3 {
-          font-size: 1.5rem;
-          margin-bottom: 1rem;
+        .icon {
+          font-size: 2rem;
+          margin-right: 1.5rem;
+          color: #333;
+        }
+  
+        .text {
+          flex: 1;
+  
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+  
+          p {
+            font-size: 1rem;
+            color: #666;
+          }
         }
       }
     }
   }
+  
   
   footer {
     background: #0044cc;
